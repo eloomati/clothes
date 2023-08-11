@@ -1,15 +1,14 @@
-import functions
 import img_function as i
 
 path = r'D:\vision'
-url = 'https://remixshop.com/pl/womens-clothes/t-shirts?page=9' # podajemy link z https://
+url = 'https://remixshop.com/pl/mens-clothes/sweatshirts?page=133' # podajemy link z https://
 start_page = '1'
-end_page = '95'
+end_page = '10'
 mark = 'img'
 classfication = 'class'
 name_of_classification = 'img-fluid'
 source = 'src'
-name_of_folder = 'koszulki'
+name_of_folder = 'bluzy'
 
 
 if __name__ == '__main__':
